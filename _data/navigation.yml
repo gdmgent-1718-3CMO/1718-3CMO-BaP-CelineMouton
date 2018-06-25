@@ -6,21 +6,40 @@
   # folder: pages/
   permalink: /index 
   # fa-icon: icon-info
+  
+- name: Betekenis logo
+  description: Betekenis logo
+  folder: pages/
+  permalink: betekenis/
+  # fa-icon: icon-info
+
 
 - name: Logo
   description: Logo
-  folder: pages/logo/
+  folder: pages/
   permalink: logo/
   # fa-icon: icon-graduation-cap
 
-- name: Kleur
-  description: Kleur
-  folder: pages/kleur/
+- name: Huiskleuren
+  description: Huiskleuren
+  folder: pages/
   permalink: kleur/
   # fa-icon: icon-info
 
-- name: Styleguide
-  description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
+- name: Lettertype
+  description: Lettertype 
+  folder: pages/
+  permalink: /lettertype
+  # fa-icon: icon-info
+
+- name: Richtlijnen lay-out
+  description: Richtlijnen lay-out 
+  folder: pages/
+  permalink: /lay-out
+  # fa-icon: icon-info
+  
+- name: Nog iets 
+  description: nog iets
+  folder: pages/nogiets
+  permalink: /nogiets
   # fa-icon: icon-info

@@ -3,3 +3,46 @@
 @charset "UTF-8";
 
 @import "main";
+
+
+.buttonHome{
+    background-color:rgb(131, 131, 131); 
+    border: none;
+    color: white;
+    padding: 20% 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.buttonHome:hover{
+    background-color: white;
+    color: transparent;
+    transition: width 2s, height 4s;
+}
+
+.buttonBetekenis:hover{
+    background-image: url('../../images/logo.png');
+    background-position: center;
+    background-size: cover;
+}
+
+button.banner{
+    padding: 1% 0%;
+} 
+
+.navigatie{
+    background-color:#86A92F;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    margin-right: 2rem;
+}
