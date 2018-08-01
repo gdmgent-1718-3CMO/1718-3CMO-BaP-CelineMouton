@@ -7,23 +7,31 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
+    
 </head>
 
 <body data-spy="scroll" data-target="#toc">  
 <div class="container">
-        <img class="img-fluid banner" src="{{ '/images/banner_home.png' | relative_url }}" alt="huisstijlgids de wereldbrug">
+        <div class="container1">
+        <img class="img-fluid banner" src="{{ '/images/header.png' | relative_url }}" alt="huisstijlgids de wereldbrug">
         {% include nav_hor.html %}
         </div>
-        <div class="container">
+        <div class="container1">
     <div class="row">
-        
         <main class="col-12 col-md-12 col-lg-12 content">
                 {{ content }}
         </main>
     </div>
 </div>
+</div>
+
+<div class="container footer">
 {% include footer.html %}
 {% include scripts-bottom.html %}
+</div>
 </body>
+
+
 </html>

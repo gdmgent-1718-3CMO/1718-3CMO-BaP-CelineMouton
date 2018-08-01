@@ -4,9 +4,24 @@
 
 @import "main";
 
+@font-face {
+    font-family: Myfrida;
+    src: url("\fonts\myfrida\Myfride Regular.otf")
+}
 
+body{
+    background-color: #86A92F;
+}
+
+.container{
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 5px;
+}
 .buttonHome{
-    background-color:rgb(131, 131, 131); 
+    background-color: white;
     border: none;
     color: white;
     padding: 20% 15px;
@@ -33,16 +48,76 @@ button.banner{
 } 
 
 .navigatie{
-    background-color:#86A92F;
+    background-color: #C60450;
     border-radius: 15px;
-    margin-bottom: 2%;
+    margin-bottom: 2%; 
+
 }
 
 .navbar {
-    padding: 0;
+    padding-top: 1rem;
+    background-color: white !important;
+    text-align: center;
+    padding-left: none;
 }
 
 .navbar-light .navbar-nav .nav-link{
     color: white;
-    margin-right: 2rem;
 }
+
+ h1{
+     font-family: Myfrida; 
+     font-weight: bold; 
+     font-size: 35pt; 
+     color:  #C60450;
+ }
+
+ .tussenruimte{
+    margin-top: 7rem;
+ }
+
+.footer{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    background-color:  #C60450;
+    text-align: center; 
+}
+
+
+.punt{
+    color: white; 
+    padding-bottom: 50px; 
+}
+
+
+.fotos{
+    border-radius: 15px;
+}
+
+.nav > li > a:hover{
+    background-color: #C60450;
+    font-weight: bolder;
+    font-family: arial; 
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.titel{
+    font-family: Myfrida; 
+    font-weight: bold; 
+    font-size: 35pt; 
+    color:  #C60450;
+}
+
+.bijtitel{
+    font-size: 20px; 
+    color: black;
+    font-family: Arial;
+
+}
+

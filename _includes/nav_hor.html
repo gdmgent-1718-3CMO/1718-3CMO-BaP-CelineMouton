@@ -7,7 +7,7 @@
     
             <div class="collapse navbar-collapse" id="mainNavigation">
     
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav nav nav-justified">
             {%- for nav-item in site.data.navigation %}
             
                 {%- capture item_classes %}{% if page.url contains nav-item.permalink %}active{% endif %}{% endcapture %}

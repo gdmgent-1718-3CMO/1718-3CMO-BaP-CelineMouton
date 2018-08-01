@@ -7,39 +7,26 @@
   permalink: /index 
   # fa-icon: icon-info
   
-- name: Betekenis logo
-  description: Betekenis logo
-  folder: pages/
-  permalink: betekenis/
-  # fa-icon: icon-info
-
-
 - name: Logo
   description: Logo
   folder: pages/
   permalink: logo/
-  # fa-icon: icon-graduation-cap
+  # fa-icon: icon-info
 
-- name: Huiskleuren
-  description: Huiskleuren
+- name: Kleuren
+  description: Kleuren
   folder: pages/
   permalink: kleur/
   # fa-icon: icon-info
 
-- name: Lettertype
-  description: Lettertype 
+- name: Typografie
+  description: Typografie 
   folder: pages/
-  permalink: /lettertype
+  permalink: /typografie
   # fa-icon: icon-info
 
-- name: Richtlijnen lay-out
-  description: Richtlijnen lay-out 
+- name: Toepassingen
+  description: Toepassingen
   folder: pages/
-  permalink: /lay-out
-  # fa-icon: icon-info
-  
-- name: Nog iets 
-  description: nog iets
-  folder: pages/nogiets
-  permalink: /nogiets
+  permalink: /typografie
   # fa-icon: icon-info
