@@ -1,12 +1,11 @@
----
----
+
 @charset "UTF-8";
 
 @import "main";
 
 @font-face {
     font-family: Myfrida;
-    src: url("../images/MyfrideRegular.woff")
+    src: url('../../images/MyfrideRegular.woff');
 }
 
 body{
