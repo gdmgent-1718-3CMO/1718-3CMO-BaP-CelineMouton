@@ -22,11 +22,11 @@
 - name: Typografie
   description: Typografie 
   folder: pages/
-  permalink: /typografie
+  permalink: typografie/
   # fa-icon: icon-info
 
 - name: Toepassingen
   description: Toepassingen
   folder: pages/
-  permalink: /typografie
+  permalink: /toepassingen
   # fa-icon: icon-info
