@@ -10,19 +10,19 @@
 - name: Logo
   description: Logo
   folder: pages/
-  permalink: logo/
+  permalink: /logo
   # fa-icon: icon-info
 
 - name: Kleuren
   description: Kleuren
   folder: pages/
-  permalink: kleur/
+  permalink: /kleur
   # fa-icon: icon-info
 
 - name: Typografie
   description: Typografie 
   folder: pages/
-  permalink: typografie/
+  permalink: /typografie
   # fa-icon: icon-info
 
 - name: Toepassingen
