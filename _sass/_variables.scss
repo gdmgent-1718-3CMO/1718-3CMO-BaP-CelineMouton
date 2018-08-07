@@ -42,21 +42,6 @@ $clientcolor-5:rgba(250,120,120,1);
 // Client specific
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
-@font-face{
-    font-family: ArialROunded;
-    src: url(../fonts/ArialROunded.TTF);
-}
-
-@font-face{
-    font-family: Myfrida;
-    src: url(../fonts/MyfrideRegular.OTF);
-}
-
-@font-face{
-    font-family: ArialROundedRegular;
-    src: url(../fonts/ArialRoundedMTStd.OTF);
-}
-
 // type
 $myfont-family-base: 'Raleway', serif;
 $myfont-family-title: $myfont-family-base;
