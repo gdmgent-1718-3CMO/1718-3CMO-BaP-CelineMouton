@@ -4,22 +4,6 @@
 
 @import "main";
 
-@import url(../fonts/ArialROunded.TTF);
-
-@font-face{
-    font-family: ArialROunded;
-    src: url(../fonts/ArialROunded.TTF);
-}
-
-@font-face{
-    font-family: Myfrida;
-    src: url(../fonts/MyfrideRegular.OTF);
-}
-
-@font-face{
-    font-family: ArialROundedRegular;
-    src: url(../fonts/ArialRoundedMTStd.OTF);
-}
 body{
     background-color: #86A92F;
     font-family: ArialROundedRegular;
