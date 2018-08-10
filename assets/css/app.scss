@@ -4,26 +4,9 @@
 
 @import "main";
 
-
-@font-face{
-    font-family: ArialROunded;
-    src: url(ArialROunded.TTF);
-}
-
-@font-face{
-    font-family: Myfrida;
-    src: url(../../fonts/MyfrideRegular.OTF);
-}
-
-@font-face{
-    font-family: ArialROundedRegular;
-    src: url(../../fonts/ArialRoundedMTStd.OTF);
-}
-
-
 body{
     background-color: #86A92F;
-    font-family: ArialROundedRegular;
+    src: url(../../fonts/ArialROundedRegular.TTF);
 }
 
 .container{
@@ -57,6 +40,11 @@ body{
     font-family: ArialROundedRegular;
 }
 
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color:  white; 
+    font-weight: bold; 
+
+}
 h1{
      font-family: Myfrida; 
      font-weight: bold; 
@@ -262,7 +250,7 @@ h1{
 }
 
 .fontArialRoundedBold{
-    font-family: ArialROunded;
+    font-family: ArialROundedRegular;
     font-size: 30px;
     font-weight:bold; 
 }
@@ -270,4 +258,33 @@ h1{
 .fontArialRoundedRegular{
     font-family: ArialROundedRegular;
     font-size: 30px;
+}
+
+.buttontoepassing{
+    font-family: ArialROundedRegular;
+    background-color: #86A92F;
+    color: black;
+    border: none;
+    color: white;
+}
+
+.buttontoepassing:hover{
+    background-color: rgb(150, 173, 91);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 0px 0 rgba(0,0,0,0.19);
+    border: none;
+    color: white;
+}
+
+#to-top{
+    background-color: #C60450;
+    
+}
+
+#to-top:hover{
+    background-color: rgb(202, 66, 121);
+    
+}
+
+.buttonlogo{
+    margin: 5px;
 }
