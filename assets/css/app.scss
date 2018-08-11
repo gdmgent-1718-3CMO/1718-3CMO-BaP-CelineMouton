@@ -4,9 +4,19 @@
 
 @import "main";
 
+@font-face{
+    font-family: Myfrida;
+    src: url(MyfridaBold.otf);
+}
+
+@font-face{
+    font-family: ArialROundedRegular;
+    src: url(ArialRoundedRegular.ttf);
+}
+
 body{
     background-color: #86A92F;
-    src: url(../../fonts/ArialROundedRegular.TTF);
+    font-family: ArialROundedRegular;
 }
 
 .container{
