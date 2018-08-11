@@ -298,3 +298,31 @@ h1{
 .buttonlogo{
     margin: 5px;
 }
+
+.navbar-toggler{
+    background-color: white;
+    float: right; 
+}
+
+.show{
+    padding: 0;
+    margin:0;
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+    div{
+        padding: 5px;
+    }
+
+    .footer{
+        margin-top: 60px;
+    }
+
+    .buttontoepassing{
+        margin-bottom: 15px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+  }
