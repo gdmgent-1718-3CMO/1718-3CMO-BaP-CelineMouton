@@ -309,7 +309,7 @@ h1{
     margin:0;
 }
 
-@media all and (min-width:0px) and (max-width: 320px) {
+@media all and (min-width:0px) and (max-width: 520px) {
     div{
         padding: 5px;
     }
@@ -324,5 +324,8 @@ h1{
 
     h1{
         font-size: 30px;
+    }
+    body{
+        background-color: white;
     }
   }
