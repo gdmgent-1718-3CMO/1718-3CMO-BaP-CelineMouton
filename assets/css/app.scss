@@ -276,11 +276,12 @@ h1{
     color: black;
     border: none;
     color: white;
+    margin-bottom: 10px;
 }
 
 .buttontoepassing:hover{
     background-color: rgb(150, 173, 91);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 0px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.24), 0 2px 0px 0 rgba(255, 255, 255, 0.19);
     border: none;
     color: white;
 }
@@ -309,6 +310,20 @@ h1{
     margin:0;
 }
 
+ul{
+    line-height: 2em;
+}
+
+main ul li:before{
+    color: #86A92F;
+}
+
+h2{
+      font-family: Myfrida; 
+      color: #86A92F;
+      font-size: 30px;
+}
+
 @media all and (min-width:0px) and (max-width: 520px) {
     div{
         padding: 5px;
@@ -329,3 +344,4 @@ h1{
         background-color: white;
     }
   }
+
